@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Mine</string>
+    <string name="permission"> Permission</string>
+    <string name="data_report">Data report</string>
+    <string name="historical_rute">Historical route</string>
+    <string name="route_preference">Route preference</string>
+    <string name="average_time_to_stop">Average time to stop</string>
+    <string name="parking_dir">Parking direction</string>
+    <string name="return_to_start">Return to start</string>
+    <string name="navigation_pref">Navigation preference</string>
+   <string name="general_pref">General Preference</string>
+    <string name="distance_unit">Distance unit</string>
+    <string name="vehicle_type">Vehicle type</string>
+    <string name="map_type">Map type</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share_us">Share us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="location_permission">Location permission</string>
+    <string name="run_bg">Runs in background to save battery </string>
+    <string name="route_progress">Route Progress</string>
+    <string name="stops_progress">Stops progress</string>
+    <string name="avg_travel_time_per_stop">Avg Travel Time per Stop</string>
+    <string name="completed">Completed</string>
+    <string name="incomplete">Incomplete</string>
+    <string name="route_name">Route name</string>
+    <string name="total_stop">Total stop</string>
+    <string name="create_new_route">Create New Route</string>
+    <string name="rename">Rename</string>
+    <string name="delete_route">Delete route</string>
+</resources>
