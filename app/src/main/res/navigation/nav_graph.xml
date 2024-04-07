@@ -9,7 +9,7 @@
         android:name="com.hd.mine.MainFragment"
         android:label="MainFragment" >
         <action
-            android:id="@+id/action_mainFragment_to_screen2Fargment"
+            android:id="@+id/main2screen2"
             app:destination="@id/screen2Fargment" />
         <action
             android:id="@+id/action_mainFragment_to_screen3Fragment"
@@ -18,9 +18,17 @@
     <fragment
         android:id="@+id/screen2Fargment"
         android:name="com.hd.mine.Screen2Fargment"
-        android:label="Screen2Fargment" />
+        android:label="Screen2Fargment" >
+        <action
+            android:id="@+id/action_screen2Fargment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
     <fragment
         android:id="@+id/screen3Fragment"
         android:name="com.hd.mine.Screen3Fragment"
-        android:label="Screen3Fragment" />
+        android:label="Screen3Fragment" >
+        <action
+            android:id="@+id/action_screen3Fragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>

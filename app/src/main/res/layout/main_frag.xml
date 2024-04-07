@@ -12,7 +12,6 @@
         android:background="@color/white"
         app:title="My Toolbar"
         >
-
     </Toolbar>
 
     <ScrollView
@@ -27,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:background=""
+                android:background="@drawable/yellow_rounded_corner"
                 >
 
                 <ImageView
@@ -62,7 +61,6 @@
                     android:text="Upgrade"
                     android:layout_margin="26dp"
                     android:layout_marginStart="40dp"
-                    android:padding=""
                     android:background="@drawable/yellow_rounded_corner"
                     />
             </LinearLayout>
@@ -70,6 +68,7 @@
      <LinearLayout
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
+         android:id="@+id/permission"
          android:orientation="horizontal">
 
          <ImageView
@@ -89,10 +88,10 @@
              android:textStyle="bold"/>
 
           <ImageView
-              android:layout_width="18dp"
+              android:layout_width="40dp"
               android:layout_height="wrap_content"
               android:src="@drawable/baseline_navigate_next_24"
-              android:layout_marginLeft="250dp"
+              android:layout_marginLeft="200dp"
               android:layout_marginTop="26dp"
               />
 
@@ -105,6 +104,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/dataReport"
             android:orientation="horizontal">
             <ImageView
                 android:layout_width="18dp"
@@ -122,10 +122,10 @@
                 android:textStyle="bold"/>
 
             <ImageView
-                android:layout_width="18dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/baseline_navigate_next_24"
-                android:layout_marginLeft="250dp"
+                android:layout_marginLeft="200dp"
                 android:layout_marginTop="26dp"
                 />
 
@@ -154,10 +154,10 @@
                 android:textSize="18sp" />
 
             <ImageView
-                android:layout_width="18dp"
+                android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/baseline_navigate_next_24"
-                android:layout_marginLeft="220dp"
+                android:layout_marginLeft="170dp"
                 android:layout_marginTop="26dp"
                 />
 
@@ -397,7 +397,7 @@
                     android:layout_width="40dp"
                     android:layout_height="wrap_content"
                     android:src="@drawable/baseline_navigate_next_24"
-                    android:layout_marginLeft="218dp"
+                    android:layout_marginLeft="168dp"
                     android:layout_marginTop="26dp"
                     />
 
@@ -429,7 +429,7 @@
                     android:layout_width="40dp"
                     android:layout_height="wrap_content"
                     android:src="@drawable/baseline_navigate_next_24"
-                    android:layout_marginLeft="260dp"
+                    android:layout_marginLeft="210dp"
                     android:layout_marginTop="26dp"
                     />
             </LinearLayout>
@@ -459,7 +459,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="270dp"
+                    android:layout_marginLeft="220dp"
                     android:layout_marginTop="26dp"
                     android:src="@drawable/baseline_navigate_next_24" />
 
