@@ -16,7 +16,7 @@
     <string name="share_us">Share us</string>
     <string name="rate_us">Rate Us</string>
     <string name="location_permission">Location permission</string>
-    <string name="run_bg">Runs in background to save battery </string>
+    <string name="run_bg">Runs in background to save \nbattery </string>
     <string name="route_progress">Route Progress</string>
     <string name="stops_progress">Stops progress</string>
     <string name="avg_travel_time_per_stop">Avg Travel Time per Stop</string>
